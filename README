@@ -1,0 +1,19 @@
+
+TaoBaoSDK_Demo 
+ TaoBaoSDK_Demo is too sample library to help user get taobao top data。
+1.use open source
+    ASIHttpRequest.
+    JSON.
+how to use:
+   1.Add ASIHttpRequest and json open source library files.
+   2.add CFNetwork.framework,MobileCoreServices.framework,SystemConfiguration.framework and libz.1.2.3.dylib
+   3.add taobaosdk files.
+how to Expand other taobao top request:
+   1.Inherit BaseRequest class.
+   2.Reference ItemsGetRequest class'Design
+
+author: Dave Wang
+sina weibo:http://weibo.com/1676893457
+email:dave.wang2009@gmail.com    
+mobile:18611623102   
+ 

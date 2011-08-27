@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TaobaoClient.h"
+#import "ItemsGetRequest.h"
 
-@interface TaoBaoSDK_DemoViewController : UIViewController
+@interface TaoBaoSDK_DemoViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    TaobaoClient *client;
+    NSDictionary *titles;
+}
 
 @end
