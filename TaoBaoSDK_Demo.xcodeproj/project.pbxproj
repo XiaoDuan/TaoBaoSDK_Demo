@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5531260D1409498F00852524 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531260C1409498F00852524 /* UIKit.framework */; };
+		5531260F1409498F00852524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531260E1409498F00852524 /* Foundation.framework */; };
+		553126111409498F00852524 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553126101409498F00852524 /* CoreGraphics.framework */; };
+		553126171409498F00852524 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 553126151409498F00852524 /* InfoPlist.strings */; };
+		553126191409498F00852524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 553126181409498F00852524 /* main.m */; };
+		5531261D1409498F00852524 /* TaoBaoSDK_DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5531261C1409498F00852524 /* TaoBaoSDK_DemoAppDelegate.m */; };
+		553126201409498F00852524 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5531261E1409498F00852524 /* MainWindow.xib */; };
+		553126231409498F00852524 /* TaoBaoSDK_DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553126221409498F00852524 /* TaoBaoSDK_DemoViewController.m */; };
+		553126261409498F00852524 /* TaoBaoSDK_DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553126241409498F00852524 /* TaoBaoSDK_DemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		553126081409498F00852524 /* TaoBaoSDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBaoSDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5531260C1409498F00852524 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5531260E1409498F00852524 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		553126101409498F00852524 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		553126141409498F00852524 /* TaoBaoSDK_Demo-Info.plist */ = {isa = PBXFileReference; path = "TaoBaoSDK_Demo-Info.plist"; sourceTree = "<group>"; };
+		553126161409498F00852524 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		553126181409498F00852524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5531261A1409498F00852524 /* TaoBaoSDK_Demo-Prefix.pch */ = {isa = PBXFileReference; path = "TaoBaoSDK_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		5531261B1409498F00852524 /* TaoBaoSDK_DemoAppDelegate.h */ = {isa = PBXFileReference; path = TaoBaoSDK_DemoAppDelegate.h; sourceTree = "<group>"; };
+		5531261C1409498F00852524 /* TaoBaoSDK_DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoSDK_DemoAppDelegate.m; sourceTree = "<group>"; };
+		5531261F1409498F00852524 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		553126211409498F00852524 /* TaoBaoSDK_DemoViewController.h */ = {isa = PBXFileReference; path = TaoBaoSDK_DemoViewController.h; sourceTree = "<group>"; };
+		553126221409498F00852524 /* TaoBaoSDK_DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoSDK_DemoViewController.m; sourceTree = "<group>"; };
+		553126251409498F00852524 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TaoBaoSDK_DemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553126051409498F00852524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5531260D1409498F00852524 /* UIKit.framework in Frameworks */,
+				5531260F1409498F00852524 /* Foundation.framework in Frameworks */,
+				553126111409498F00852524 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		553125FD1409498F00852524 = {
+			isa = PBXGroup;
+			children = (
+				553126121409498F00852524 /* TaoBaoSDK_Demo */,
+				5531260B1409498F00852524 /* Frameworks */,
+				553126091409498F00852524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		553126091409498F00852524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553126081409498F00852524 /* TaoBaoSDK_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5531260B1409498F00852524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5531260C1409498F00852524 /* UIKit.framework */,
+				5531260E1409498F00852524 /* Foundation.framework */,
+				553126101409498F00852524 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		553126121409498F00852524 /* TaoBaoSDK_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5531261B1409498F00852524 /* TaoBaoSDK_DemoAppDelegate.h */,
+				5531261C1409498F00852524 /* TaoBaoSDK_DemoAppDelegate.m */,
+				5531261E1409498F00852524 /* MainWindow.xib */,
+				553126211409498F00852524 /* TaoBaoSDK_DemoViewController.h */,
+				553126221409498F00852524 /* TaoBaoSDK_DemoViewController.m */,
+				553126241409498F00852524 /* TaoBaoSDK_DemoViewController.xib */,
+				553126131409498F00852524 /* Supporting Files */,
+			);
+			path = TaoBaoSDK_Demo;
+			sourceTree = "<group>";
+		};
+		553126131409498F00852524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				553126141409498F00852524 /* TaoBaoSDK_Demo-Info.plist */,
+				553126151409498F00852524 /* InfoPlist.strings */,
+				553126181409498F00852524 /* main.m */,
+				5531261A1409498F00852524 /* TaoBaoSDK_Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		553126071409498F00852524 /* TaoBaoSDK_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553126291409498F00852524 /* Build configuration list for PBXNativeTarget "TaoBaoSDK_Demo" */;
+			buildPhases = (
+				553126041409498F00852524 /* Sources */,
+				553126051409498F00852524 /* Frameworks */,
+				553126061409498F00852524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoBaoSDK_Demo;
+			productName = TaoBaoSDK_Demo;
+			productReference = 553126081409498F00852524 /* TaoBaoSDK_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		553125FF1409498F00852524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = DaveDev;
+			};
+			buildConfigurationList = 553126021409498F00852524 /* Build configuration list for PBXProject "TaoBaoSDK_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 553125FD1409498F00852524;
+			productRefGroup = 553126091409498F00852524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553126071409498F00852524 /* TaoBaoSDK_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553126061409498F00852524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553126171409498F00852524 /* InfoPlist.strings in Resources */,
+				553126201409498F00852524 /* MainWindow.xib in Resources */,
+				553126261409498F00852524 /* TaoBaoSDK_DemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553126041409498F00852524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553126191409498F00852524 /* main.m in Sources */,
+				5531261D1409498F00852524 /* TaoBaoSDK_DemoAppDelegate.m in Sources */,
+				553126231409498F00852524 /* TaoBaoSDK_DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		553126151409498F00852524 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553126161409498F00852524 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5531261E1409498F00852524 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5531261F1409498F00852524 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		553126241409498F00852524 /* TaoBaoSDK_DemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553126251409498F00852524 /* en */,
+			);
+			name = TaoBaoSDK_DemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		553126271409498F00852524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		553126281409498F00852524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5531262A1409498F00852524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaoBaoSDK_Demo/TaoBaoSDK_Demo-Prefix.pch";
+				INFOPLIST_FILE = "TaoBaoSDK_Demo/TaoBaoSDK_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5531262B1409498F00852524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaoBaoSDK_Demo/TaoBaoSDK_Demo-Prefix.pch";
+				INFOPLIST_FILE = "TaoBaoSDK_Demo/TaoBaoSDK_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553126021409498F00852524 /* Build configuration list for PBXProject "TaoBaoSDK_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553126271409498F00852524 /* Debug */,
+				553126281409498F00852524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553126291409498F00852524 /* Build configuration list for PBXNativeTarget "TaoBaoSDK_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5531262A1409498F00852524 /* Debug */,
+				5531262B1409498F00852524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 553125FF1409498F00852524 /* Project object */;
+}
