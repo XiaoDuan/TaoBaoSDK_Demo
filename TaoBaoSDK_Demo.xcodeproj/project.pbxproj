@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553114971422620400FD0104 /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 553114961422620400FD0104 /* LoadMoreTableFooterView.m */; };
+		553114A3142268B700FD0104 /* ZoomedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 553114A2142268B600FD0104 /* ZoomedImageView.m */; };
+		553114A91422FF0700FD0104 /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 553114A81422FF0600FD0104 /* UIImageExtras.m */; };
 		5531260D1409498F00852524 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531260C1409498F00852524 /* UIKit.framework */; };
 		5531260F1409498F00852524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531260E1409498F00852524 /* Foundation.framework */; };
 		553126111409498F00852524 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553126101409498F00852524 /* CoreGraphics.framework */; };
@@ -46,9 +49,17 @@
 		553126E11409503400852524 /* TaobaoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 553126DB1409503400852524 /* TaobaoClient.m */; };
 		553126E21409503400852524 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 553126DD1409503400852524 /* Utils.m */; };
 		553126FB140966E700852524 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 553126FA140966E700852524 /* README */; };
+		55FD44B8141F1E6C0035E782 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FD44B7141F1E6C0035E782 /* EGORefreshTableHeaderView.m */; };
+		55FD44BB141F20AC0035E782 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FD44BA141F20AC0035E782 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553114951422620400FD0104 /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		553114961422620400FD0104 /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		553114A1142268B600FD0104 /* ZoomedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomedImageView.h; sourceTree = "<group>"; };
+		553114A2142268B600FD0104 /* ZoomedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomedImageView.m; sourceTree = "<group>"; };
+		553114A71422FF0500FD0104 /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		553114A81422FF0600FD0104 /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
 		553126081409498F00852524 /* TaoBaoSDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBaoSDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5531260C1409498F00852524 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5531260E1409498F00852524 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +134,9 @@
 		553126DC1409503400852524 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		553126DD1409503400852524 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		553126FA140966E700852524 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		55FD44B6141F1E6C0035E782 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		55FD44B7141F1E6C0035E782 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		55FD44BA141F20AC0035E782 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FD44BB141F20AC0035E782 /* QuartzCore.framework in Frameworks */,
 				553126C014094F2C00852524 /* libz.1.2.3.dylib in Frameworks */,
 				553126BE14094F0A00852524 /* SystemConfiguration.framework in Frameworks */,
 				553126BC14094EEB00852524 /* MobileCoreServices.framework in Frameworks */,
@@ -143,9 +158,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		553114941422620400FD0104 /* LoadMoreTableFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				553114951422620400FD0104 /* LoadMoreTableFooterView.h */,
+				553114961422620400FD0104 /* LoadMoreTableFooterView.m */,
+			);
+			path = LoadMoreTableFooterView;
+			sourceTree = "<group>";
+		};
 		553125FD1409498F00852524 = {
 			isa = PBXGroup;
 			children = (
+				55FD44BA141F20AC0035E782 /* QuartzCore.framework */,
 				553126BF14094F2C00852524 /* libz.1.2.3.dylib */,
 				553126BD14094F0A00852524 /* SystemConfiguration.framework */,
 				553126BB14094EEB00852524 /* MobileCoreServices.framework */,
@@ -178,6 +203,12 @@
 		553126121409498F00852524 /* TaoBaoSDK_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				553114A71422FF0500FD0104 /* UIImageExtras.h */,
+				553114A81422FF0600FD0104 /* UIImageExtras.m */,
+				553114A1142268B600FD0104 /* ZoomedImageView.h */,
+				553114A2142268B600FD0104 /* ZoomedImageView.m */,
+				553114941422620400FD0104 /* LoadMoreTableFooterView */,
+				55FD44B5141F1E6C0035E782 /* RefreshTableHeaderView */,
 				553126D31409503400852524 /* SDK */,
 				5531269814094E7600852524 /* AsiHttpRequest */,
 				5531267514094D2F00852524 /* json */,
@@ -287,6 +318,15 @@
 			path = SDK;
 			sourceTree = "<group>";
 		};
+		55FD44B5141F1E6C0035E782 /* RefreshTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				55FD44B6141F1E6C0035E782 /* EGORefreshTableHeaderView.h */,
+				55FD44B7141F1E6C0035E782 /* EGORefreshTableHeaderView.m */,
+			);
+			path = RefreshTableHeaderView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,6 +419,10 @@
 				553126E01409503400852524 /* RequestParametersHolder.m in Sources */,
 				553126E11409503400852524 /* TaobaoClient.m in Sources */,
 				553126E21409503400852524 /* Utils.m in Sources */,
+				55FD44B8141F1E6C0035E782 /* EGORefreshTableHeaderView.m in Sources */,
+				553114971422620400FD0104 /* LoadMoreTableFooterView.m in Sources */,
+				553114A3142268B700FD0104 /* ZoomedImageView.m in Sources */,
+				553114A91422FF0700FD0104 /* UIImageExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +540,7 @@
 				5531262B1409498F00852524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
