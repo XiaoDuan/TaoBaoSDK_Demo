@@ -8,12 +8,34 @@
 
 #import <UIKit/UIKit.h>
 #import "TaobaoClient.h"
+#import "ZoomedImageView.h"
+#import "UIImageExtras.h"
 #import "ItemsGetRequest.h"
-
-@interface TaoBaoSDK_DemoViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+//#import "EGORefreshTableHeaderView.h"
+#import "LoadMoreTableFooterView.h"
+@interface TaoBaoSDK_DemoViewController : UIViewController <LoadMoreTableFooterDelegate,UITableViewDelegate,UITextFieldDelegate, UITableViewDataSource>
 {
     TaobaoClient *client;
-    NSDictionary *titles;
+    
+   // NSMutableDictionary *titles;
+   // NSMutableArray *titles;
+    NSNumber *titlesCount;
+    UITableView *tableView;
+    UITextField     *searchTextField;
+    NSMutableArray  *photoTitles;         // Titles of images
+    NSMutableArray  *photoSmallImageData; // Image data (thumbnail)
+    NSMutableArray  *photoURLsLargeImage; // URL to larger image
+    
+    ZoomedImageView  *fullImageViewController;
+    UIActivityIndicatorView *activityIndicator; 
+    NSString *currentSearchText;
+    LoadMoreTableFooterView *_refreshHeaderView;
+	
+	//  Reloading var should really be your tableviews datasource
+	//  Putting it here for demo purposes 
+	BOOL _reloading;
 }
-
+@property(retain) IBOutlet UITableView *tableView;
+- (void)reloadTableViewDataSource;
+- (void)doneLoadingTableViewData;
 @end
