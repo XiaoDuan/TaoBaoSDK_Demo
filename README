@@ -6,14 +6,18 @@ TaoBaoSDK_Demo
     JSON.
 how to use:
    1.Add ASIHttpRequest and json open source library files.
-   2.add CFNetwork.framework,MobileCoreServices.framework,SystemConfiguration.framework and libz.1.2.3.dylib
-   3.add taobaosdk files.
+   2.add CFNetwork.framework,MobileCoreServices.framework,SystemConfiguration.framework,QuartzCore.framework and libz.1.2.3.dylib
+   3.add taobaosdk files and loadMoreTableFooterView.
 how to Expand other taobao top request:
    1.Inherit BaseRequest class.
    2.Reference ItemsGetRequest class'Design
 
 author: Dave Wang
+QQ:419682729
 sina weibo:http://weibo.com/1676893457
 email:dave.wang2009@gmail.com    
-mobile:18611623102   
- 
+
+update 2011.9.16
+   add loadMoreTableFooterView.
+   add table view image show.
+   add table view search item.
