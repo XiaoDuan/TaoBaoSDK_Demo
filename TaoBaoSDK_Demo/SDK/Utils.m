@@ -38,8 +38,10 @@
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     NSDate *date = [NSDate date]; 
-    
-    return [dateFormatter stringFromDate:date];
+ 
+    NSString* strDate = [dateFormatter stringFromDate:date];
+       [dateFormatter release];
+    return  strDate;
 } 
 +(NSString*)signTopRequestNew:(RequestParametersHolder*) requestHolder  andSecret:(NSString*) secret
 {
