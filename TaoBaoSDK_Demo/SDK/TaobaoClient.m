@@ -45,7 +45,7 @@
     [asiRequest startSynchronous];
     NSError *error = [asiRequest error];
     if (!error) {
-       return [[asiRequest responseString] JSONValue];
+return [[asiRequest responseString] JSONValue];
     }
 //    startAsynchronous ASIRequest
     
@@ -97,8 +97,8 @@
   
     [protocalMustParams setObject:[Utils signTopRequestNew:requestHolder andSecret:appSecret]  forKey:SIGN];
     
-    NSMutableString *urlBuffer = [NSMutableString stringWithString:serverUrl];
- 
+    NSMutableString *urlBuffer = [NSMutableString stringWithString:serverUrl] ;
+    
     
     NSString *sysMustQuery = [Utils buildQuery:protocalMustParams];
     NSString *sysOptQuery = [Utils buildQuery:protocalOptParams];
@@ -115,6 +115,7 @@
         [urlBuffer appendString:@"&"];
         [urlBuffer appendString:appQuery];
     } 
+    [requestHolder release];
     return urlBuffer;
 }
 
